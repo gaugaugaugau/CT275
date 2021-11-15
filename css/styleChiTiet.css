@@ -1,0 +1,173 @@
+.clear{
+	clear: both;
+}
+.wrap_chitiet{
+	width: 1180px;
+	margin: auto;
+	height: 590px;
+	background-color: white;
+	overflow: hidden;
+}
+.wrap_chitiet h4{
+	padding: 10px 10px 0px 15px;
+	font-size: 2rem;
+    margin-left: 40px;
+}
+p#gia{
+	color: red;
+	font-size: 25px;
+	font-weight: 700;
+	margin-left: 15px;
+}
+.wrap_chitiet .images{
+	width: 45%;
+	min-height: 500px;
+	float: left;
+}
+.wrap_chitiet .images img{
+	width: 80%;
+	padding: 10px;
+	margin-left: 50px;
+	border: 1px solid #c5c5c533;
+}
+/*_______________________________Chi tiết khuyến mãi_____________________________*/
+.wrap_chitiet .khuyenmai{
+	width: 30%;
+	min-height: 500px;
+	float: left;
+	padding: 10px; 
+}
+.wrap_chitiet .khuyenmai .thongtin{
+	border:1px solid #00000042;
+	border-radius: 5px;
+}
+.wrap_chitiet .khuyenmai .km_top{
+	padding: 10px;
+	border-bottom: none;
+	text-align: center;
+	border-bottom: 1px solid #00000042;
+}
+.wrap_chitiet .khuyenmai .km_top i{
+	font-size: 14px;
+}
+.wrap_chitiet .khuyenmai .km_mid{
+	padding: 10px;
+	border-bottom: none;
+	margin-left: 10px;		
+}
+.wrap_chitiet .khuyenmai .km_mid img{
+	width: 20px;
+} 
+.wrap_chitiet .khuyenmai .km_bot{
+	padding: 10px;
+	border-bottom: 1px solid #00000042;
+	border-top: 1px solid #00000042;
+}
+.wrap_chitiet .khuyenmai .km_bot img{
+	width: 50px;
+	margin: 10px;
+}
+.wrap_chitiet .khuyenmai .km_end{
+	padding: 10px;
+}
+.wrap_chitiet .khuyenmai .km_end img{
+	width: 20px;
+}
+.wrap_chitiet .khuyenmai .km_end strong{
+	color: red;
+}
+/*_______________________________Khuyến mãi đi kèm_____________________________*/
+.wrap_chitiet .dikem{
+	width: 25%;
+	min-height: 500px;
+	float: right;
+	padding: 10px;
+	margin-top: 10px;
+}
+.wrap_chitiet .dikem p{
+	font-size: 20px;
+	font-weight: 600;
+	color: blue;
+}
+.wrap_chitiet .dikem .dk_mid{
+	border: 1px solid black;
+	padding: 10px;
+	border-radius: 5px;
+}
+.wrap_chitiet .dikem .dk_mid img{
+	width: 20px;
+}
+.thongsokythuat textarea#cauhinh{
+	width: 100%;
+	height: 180px;
+}
+.submit{
+	width: 1180px;
+	margin: auto;
+	background: white;
+}
+.submit .input{
+	width: 400px;
+	margin: auto;
+}
+.submit .input input{
+	outline: none;
+	width: 400px;
+	height: 40px;
+	border-radius: 5px;
+	background-color: #5a229c;
+	color: white;
+}
+.submit .input input:hover,active{
+	font-weight: 600;
+}
+/*_____________________________Mô tả sản phẩm__________________________*/
+.motaSP{
+	width: 1180px;
+	background-color: white;
+	margin: auto; 
+	padding: 20px;
+}
+.motaSP p{
+	text-align: justify;
+	font-size: 18px;
+	margin-top: 10px;
+}
+/*__________________________San Pham Tuong Tu__________________________*/
+.spTuongTu{
+	width: 1180px;
+    background: white;
+    margin: -10px auto;
+    height: 388px;
+}
+.spTuongTu p{
+	font-size: 20px;
+	font-weight: 600;
+	padding: 10px 10px 10px 20px;
+	border-top:1px solid #eaeaea6b;
+}
+.spTuongTu .sp {
+  width: 275px;
+  height: 300px;
+  border-radius: 5px;
+  border-color: red;
+  background-color: #ffffff;
+  float: left;
+  margin: 0px 0px 0px 20px;
+  border: #f1f1f1 1px solid;
+}
+.spTuongTu #active {
+  margin-left: 16px;
+}
+.spTuongTu .sp img {
+  height: 200px;
+  width: 250px;
+  padding: 12px;
+}
+.spTuongTu .sp a {
+  text-decoration: none;
+  color: #0a0909;
+}
+.spTuongTu .sp a:hover {
+  color: #002fdc;
+}

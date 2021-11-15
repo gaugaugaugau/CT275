@@ -1,0 +1,455 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family:Arial, Helvetica, sans-serif;
+}
+/*________________________________Header________________________________________*/
+#header{
+	background: black;
+	font-size: 16px;
+	padding: 10px 0px;
+}
+#wrap-header{
+	width: 1180px;
+	margin: auto;
+	height: 150px;
+}
+#wrap-header .left{
+	width: 35%;
+	height: 100%;
+	float: left;
+}
+#wrap-header .center{
+	width: 30%;
+	height: 100%;
+	float: left;
+}
+#wrap-header .right{
+	width: 35%;
+	height: 100%;
+	float: left
+}
+/*______________LEFT___________________*/
+.left .search{
+	margin-left: 10px;
+	box-sizing: border-box;
+	width: 60%;
+	background-color: white;
+	border-radius: 10px;
+	height: 40px;
+	margin: 25px 5px;
+	float: left;
+	margin-top: 55px;
+} 
+.left .search input{
+	width: 75%;
+	margin: 3px 4px;
+	height: 35px;
+	border: none;
+	border-color: black;
+	outline: none;
+	padding-left: 10px;
+}
+.left .search button{
+	background: none;
+	border: 0px;
+	float: right;
+	color: none;
+	margin-top: 1.5px;
+	outline: none;
+}
+.left .search button i{
+	font-size: 30px;
+	vertical-align: middle;
+	padding: 3px 5px 3px 3px;
+}
+.center img{
+	height: 150px;
+	margin-left: 135px;
+
+}
+/*______________RIGHT___________________*/
+.right .login{
+	margin-top: 60px;
+	float: right;
+	margin-right: 10px;
+}
+.right .login >ul{
+	list-style: none;
+}
+.right .login >ul>li{
+	float: left;
+	padding:10px;
+}
+.right .login >ul>li a{
+	color: white;
+	text-decoration: none;
+}
+.right .login >ul>li a:hover{
+	color: blue;
+}
+.right .login ul.sub{
+	list-style: none;
+	display: none;
+}
+.right .login ul.sub li{
+	padding-bottom: 5px;
+}
+.right .login >ul>li:hover ul.sub{
+	display: block;
+}
+
+/*________________Menu_______________*/
+.wrap-menu{
+	background-color: black;
+	width: 100%;
+	z-index: 100;
+}
+.menu{
+	box-sizing: border-box;
+	height: 60px;
+	width: 1180px;
+	margin: auto;
+	border-top: 1px solid #ffffff87;
+
+}
+.menu ul.root >li{
+	list-style: none;
+	float: left;
+	line-height: 60px;
+	position: relative;
+}
+.menu ul.root >li >a{
+	color: white;
+	text-decoration: none;	
+	text-transform: uppercase;
+	font-weight: 500;
+	display: block;
+	padding: 0px 15px 0px 15px ;
+}
+.menu ul >li >a:hover {
+	background-color: #6517d6;
+	transition: ease-in 0.8s;
+}
+ul.submenu{
+	width: 160px;
+	background: black;
+	display: none;
+	position: absolute;
+}
+ul.submenu li {
+	list-style: none;
+}
+ul.submenu li a{
+	color: white;
+	text-decoration: none;
+	display: block;
+	line-height: 60px;
+	border-bottom: 1px solid #fffff882;
+	padding: 0px 15px 0px 15px ;
+}
+ul.root >li:hover ul.submenu{
+	display: block;
+}
+/*_________________________________Banner_______________________________________*/
+/*___________Top SanPham_____________*/
+.banner {
+	clear: both;
+	width: 1180px;
+	height: 315px;
+	margin: 5px auto;
+	background-color:white ; 
+	padding: 5px 10px 10px 10px;
+}
+.banner #top-sp{
+	width: 50%;
+	height: 300px;
+	float: left;
+}
+#top-sp .top{
+	width: 100%;
+	height: 50%;
+}
+#top-sp .top .sp{
+	width: 45%;
+	height: 95%;
+	border: 1px solid #00000045;
+	border-radius: 5px;
+	float: left;
+	margin: 5px 5px 5px 0px;
+}
+#top-sp .top .sp .left{
+	float: left;
+	width: 40%;
+	height: 100%;
+	line-height: 140px;
+}
+
+#top-sp .top .sp .left img{
+	width: 60%;
+	margin-left: 20px;
+}
+#top-sp .top .sp .right{
+	width: 50%;
+	height: 100%;
+	float: right;
+	padding: 15px 0px 15px 0px;
+}
+#top-sp .top .sp .right a#tien{
+	color: blue;
+	font-weight: 600;
+}
+#top-sp .top .sp .right a{
+	display: block;
+	text-decoration: none;
+	color: black;
+}
+#top-sp .top .sp .right a#brand{
+	color: red;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.right input{
+	width: 110px;
+	height: 30px;
+	font-size: 14px;
+	color: white;
+	border-radius: 5px;
+	background-color: #5a229c;
+}
+.right input:hover,active{
+	font-weight: 500;
+}
+/*__________SlideShow___________*/
+.banner .slide{
+  float: left;
+  width: 50%;
+  height: 300px;
+  outline: hidden;
+  position: relative;
+  background-color: red;
+  overflow: hidden;
+
+}
+.banner .slide .chuyen-slide{
+    width: 8000px; 
+    transition: all 0.5s;
+}
+.banner .slide  .chuyen-slide img{
+    width: 580px;
+    height: 300px;
+    float: left;
+}
+.banner .slide .dieuhuong{
+    position: absolute;
+    top: 35%;
+    font-size: 40px;
+    padding: 15px;
+    color: gray;
+    z-index: 10;
+    display: none;
+}
+.banner .slide .dieuhuong i:last-child{
+    position: relative;
+    left: 475px;
+}
+.banner .slide:hover .banner .slide .dieuhuong{
+	display: block;
+}
+
+/*_________________________________content_______________________________________*/
+.wrap{
+  background: gray;
+}
+.content{
+	margin-bottom: -5px;
+}
+.product {
+     width: 1180px;
+    margin: auto;
+    background: red;
+    overflow: hidden;
+}
+.product .top_product {
+    width: 100%;
+    background: blue;
+}
+.product .top_product .left {
+    width: 30%;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 10px;
+    float: left;
+    background: black;
+}
+.product .top_product .left a {
+     text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+.product .top_product .left a:hover {
+  color: blue;
+}
+.product .top_product .right {
+    width: 70%;
+    float: right;
+    background: #fff312f2;
+    height: 40px;
+    line-height: 40px;
+    text-align: right;
+}
+.product .top_product .right a {
+  text-decoration: none;
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-right: 10px;
+    padding-left: 5px;
+}
+.product .top_product .right a:hover {
+  color: blue;
+}
+/* Product Main */
+.product .main_product{
+	width: 100%;
+    background: white;
+    float: left;
+    padding: 10px;
+}
+.product .main_product .sp {
+    width: 23%;
+    height: 350px;
+    border-radius: 5px;
+    border-color: red;
+    background-color: #ffffff;
+    margin: 10px 0px 10px 20px;
+    border: #f1f1f1 1px solid;
+    float: left;
+}
+.product .main_product .sp .action{
+	width: 51%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.product .main_product .sp .action a input{
+	width: 50px;
+    background: #57e257;
+    color: white;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+}
+.product .main_product .sp .action a input#add_cart{
+	width: 80px;
+    background: #57e257;
+    color: white;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+}
+.product .main_product .sp .action a input:hover{
+	color: blue;
+}
+.product .main_product .sp .action a input#add_cart:hover{
+	color: blue;
+}
+.product .main_product .sp img {
+  width: 250px;
+    height: 200px;
+    padding: 12px;
+    margin-left: 15px;
+}
+.product .main_product .sp a {
+  text-decoration: none;
+  color: #0a0909;
+}
+.product .main_product .sp a:hover {
+  color: #002fdc;
+}
+
+/*_________________________________footer_______________________________________*/
+.footer {
+  width: 100%;
+  height: 395px;
+  background-color: black;
+  color: white;
+  border-top: 1px solid #0e00001f;
+  position: absolute;
+}
+.clear_all{
+  clear: both;
+}
+.footer .info {
+  width: 1180px;
+  height: 340px;
+  margin: auto;
+}
+.footer .info .chinhsach {
+  width: 20%;
+  float: left;
+  box-sizing: border-box;
+}
+.footer h2 {
+  padding: 20px 10px;
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 5px;
+  text-transform: uppercase;
+}
+.footer ul {
+  list-style: none;
+  padding: 10px 10px;
+}
+.footer ul li {
+  padding-bottom: 10px;
+  font-size: 15px;
+}
+
+.footer .info .hotro {
+  width: 22%;
+  float: left;
+}
+
+.footer .info .cuahang {
+  width: 33%;
+  float: left;
+  height: 130px;
+}
+.footer .info .Fanpage {
+  width: 25%;
+  float: right;
+}
+.footer .info .Fanpage .images img {
+  width: 100%;
+  height: 120px;
+}
+/* Roll To Top */
+.scroll-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 15px;
+  z-index: 100;
+  border-radius: 3px;
+  display: none;
+}
+
+.scroll-to-top img {
+  margin-bottom: 15px;
+  width: 35px;
+  height: auto;
+}
+.end{
+    width: 1180px;
+    margin: 15px auto;
+    text-align: center;
+    color: #ffffff82;
+    font-size: 14px;
+}
